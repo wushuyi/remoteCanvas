@@ -4,7 +4,7 @@
 (function($){
     $(document).ready(function($){
         var stage = new PIXI.Stage(0xFFFFFF);
-        var renderer = PIXI.autoDetectRenderer(500, 400);
+        var renderer = PIXI.autoDetectRenderer(500, 400, null, false, false, true);
         renderer.view.style.display = "block";
         var $board = $('#board');
         $board.append(renderer.view);
@@ -16,10 +16,10 @@
             var texture = new PIXI.Texture.fromImage('./assets/image/bg.png');
             var bg = new PIXI.Sprite(texture);
             stage.addChildAt(bg, 0);
+            stage.addChildAt(bg, 0);
+
             window.texture1 = texture;
             renderer.render(stage);
-
-
         });
         loader.load();
 
