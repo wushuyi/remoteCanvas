@@ -4443,7 +4443,9 @@ PIXI.EventTarget = function () {
  * @param [antialias=false] {Boolean} sets antialias (only applicable in webGL chrome at the moment)
  *
  */
-PIXI.autoDetectRenderer = function(width, height, view, transparent, antialias)
+
+// 修正 webgl 模式下的 toDataURL 黑屏
+PIXI.autoDetectRenderer = function(width, height, view, transparent, antialias, preserveDrawingBuffer)
 {
     if(!width)width = 800;
     if(!height)height = 600;
@@ -4459,7 +4461,7 @@ PIXI.autoDetectRenderer = function(width, height, view, transparent, antialias)
 
     if( webgl )
     {
-        return new PIXI.WebGLRenderer(width, height, view, transparent, antialias, true);
+        return new PIXI.WebGLRenderer(width, height, view, transparent, antialias, preserveDrawingBuffer);
     }
 
     return  new PIXI.CanvasRenderer(width, height, view, transparent);

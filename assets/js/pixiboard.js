@@ -11,12 +11,17 @@
         });
         myboard.penInit();
         myboard.penInitEvent();
+        // 测试 问题: 不能在 边画的 时候 清除对象 会丢 画的 图形
+        //myboard.test();
+
         window.myboard = myboard;
     });
 
     function board($el, options){
         this.pubEtc = {};
         this.options = {};
+        this.prevCacheBoard = null;
+        this.newCacheBoard = null;
 
         var defaultOptions = {
             width: 500,
@@ -46,6 +51,56 @@
         };
 
         this.initBg();
+    };
+
+    board.prototype.board2base64 = function(){
+        return this.pubEtc.renderer.view.toDataURL();
+    };
+
+    board.prototype.clearCache = function(){
+        var self = this;
+        var imgSrc = self.prevCacheBoard.img;
+        var pubEtc = this.pubEtc;
+
+        pubEtc.stage.removeChildren(0, pubEtc.stage.children.length);
+        var img = new Image();
+        img.onload = callback;
+        img.src = imgSrc;
+
+        function callback(){
+            var texture = new PIXI.Texture.fromImage(this.src);
+            var bg = new PIXI.Sprite(texture);
+            pubEtc.stage.removeChildren(0, self.prevCacheBoard.index);
+            pubEtc.stage.addChildAt(bg, 0);
+            pubEtc.renderer.render(pubEtc.stage);
+            self.penInit();
+            self.penInitEvent();
+            //clearInterval(self.testClear);
+
+        }
+    };
+
+    board.prototype.test = function(){
+        var self = this;
+        this.prevCacheBoard = {
+            img : null,
+            index: null
+        };
+        self.testClear = setInterval(function(){
+            self.prevCacheBoard.img = self.board2base64();
+            self.pubEtc.pen.control = {
+                oldPoint : {},
+                isDown: true,
+                pencontainer: null,
+                graphics: null,
+                graphicsStep: 0,
+                graphicsDatastep: 0
+            };
+            self.prevCacheBoard.index = self.pubEtc.stage.children.length;
+            setTimeout(function(){
+                self.clearCache();
+            }, 2000);
+        }, 5000);
     };
 
     board.prototype.initBg = function(){

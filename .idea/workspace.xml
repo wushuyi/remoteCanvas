@@ -23,40 +23,32 @@
     <favorites_list name="remoteCanvas" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.9">
+    <splitter split-orientation="vertical" split-proportion="0.4865811">
       <split-first>
         <leaf>
-          <file leaf-file-name="pixiboard.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="pixiboard.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pixiboard.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.407408" vertical-offset="703" max-vertical-offset="1386">
-                  <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+                <state vertical-scroll-proportion="0.85328186" vertical-offset="514" max-vertical-offset="1386">
+                  <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="pixiboard.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="pixiboard.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/js/pixiboard.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.45767576" vertical-offset="80" max-vertical-offset="777">
-                  <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="1008" max-vertical-offset="3150">
+                  <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
                   <folding>
-                    <element signature="e#390#751#0" expanded="false" />
-                    <element signature="e#789#1221#0" expanded="false" />
-                    <element signature="e#1263#1845#0" expanded="false" />
-                    <element signature="e#1888#2147#0" expanded="false" />
-                    <element signature="e#2197#4009#0" expanded="false" />
-                    <element signature="e#2308#2647#0" expanded="false" />
-                    <element signature="e#2697#2924#0" expanded="false" />
-                    <element signature="e#2973#3291#0" expanded="false" />
-                    <element signature="e#3311#3966#0" expanded="false" />
-                    <element signature="e#4056#5311#0" expanded="false" />
-                    <element signature="e#5357#5694#0" expanded="false" />
-                    <element signature="e#5747#7188#0" expanded="false" />
-                    <element signature="e#7238#8538#0" expanded="false" />
-                    <element signature="e#8588#8596#0" expanded="false" />
-                    <element signature="e#8644#8652#0" expanded="false" />
+                    <element signature="e#3896#5708#0" expanded="false" />
+                    <element signature="e#5755#7010#0" expanded="false" />
+                    <element signature="e#7056#7393#0" expanded="false" />
+                    <element signature="e#7446#8887#0" expanded="false" />
+                    <element signature="e#8937#10237#0" expanded="false" />
+                    <element signature="e#10287#10295#0" expanded="false" />
+                    <element signature="e#10343#10351#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -69,10 +61,23 @@
           <file leaf-file-name="pixi.dev.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/js/libs/pixi.dev.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.413793" vertical-offset="211977" max-vertical-offset="339696">
-                  <caret line="10113" column="0" selection-start-line="10113" selection-start-column="0" selection-end-line="10113" selection-end-column="0" />
+                <state vertical-scroll-proportion="-2.9310346" vertical-offset="93071" max-vertical-offset="339738">
+                  <caret line="4446" column="29" selection-start-line="4446" selection-start-column="29" selection-end-line="4446" selection-end-column="29" />
                   <folding />
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.31460676" vertical-offset="0" max-vertical-offset="267">
+                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="MarkdownPreviewEditor">
+                <state />
               </provider>
             </entry>
           </file>
@@ -86,24 +91,14 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="pixi-v2.0.0.dev.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="pixi-v2.0.0.dev.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/js/libs/pixi-v2.0.0.dev.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="37.0" vertical-offset="232952" max-vertical-offset="374493">
+                <state vertical-scroll-proportion="-5.1034484" vertical-offset="232952" max-vertical-offset="374493">
                   <caret line="11100" column="19" selection-start-line="11100" selection-start-column="19" selection-end-line="11100" selection-end-column="19" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="pixiboard.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/js/pixiboard.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="2394" max-vertical-offset="5586">
-                  <caret line="177" column="47" selection-start-line="177" selection-start-column="47" selection-end-line="177" selection-end-column="47" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -116,10 +111,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="714" />
-    <option name="y" value="110" />
+    <option name="x" value="548" />
+    <option name="y" value="50" />
     <option name="width" value="1321" />
-    <option name="height" value="1062" />
+    <option name="height" value="910" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -292,13 +287,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="714" y="110" width="1321" height="1062" extended-state="0" />
+    <frame x="548" y="50" width="1321" height="910" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13731655" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18952619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19770116" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -548,17 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="367">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51724136" vertical-offset="1029" max-vertical-offset="1890">
@@ -577,17 +561,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/libs/pixi.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.413793" vertical-offset="211977" max-vertical-offset="339696">
-          <caret line="10113" column="0" selection-start-line="10113" selection-start-column="0" selection-end-line="10113" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/libs/pixi-v2.0.0.dev.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="37.0" vertical-offset="232952" max-vertical-offset="374493">
+        <state vertical-scroll-proportion="-5.1034484" vertical-offset="232952" max-vertical-offset="374493">
           <caret line="11100" column="19" selection-start-line="11100" selection-start-column="19" selection-end-line="11100" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -595,36 +571,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/pixiboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1008" max-vertical-offset="3150">
+          <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+          <folding>
+            <element signature="e#3896#5708#0" expanded="false" />
+            <element signature="e#5755#7010#0" expanded="false" />
+            <element signature="e#7056#7393#0" expanded="false" />
+            <element signature="e#7446#8887#0" expanded="false" />
+            <element signature="e#8937#10237#0" expanded="false" />
+            <element signature="e#10287#10295#0" expanded="false" />
+            <element signature="e#10343#10351#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pixiboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.407408" vertical-offset="703" max-vertical-offset="1386">
-          <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.85328186" vertical-offset="514" max-vertical-offset="1386">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/pixiboard.js">
+    <entry file="file://$PROJECT_DIR$/assets/js/libs/pixi.dev.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45767576" vertical-offset="80" max-vertical-offset="777">
-          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
-          <folding>
-            <element signature="e#390#751#0" expanded="false" />
-            <element signature="e#789#1221#0" expanded="false" />
-            <element signature="e#1263#1845#0" expanded="false" />
-            <element signature="e#1888#2147#0" expanded="false" />
-            <element signature="e#2197#4009#0" expanded="false" />
-            <element signature="e#2308#2647#0" expanded="false" />
-            <element signature="e#2697#2924#0" expanded="false" />
-            <element signature="e#2973#3291#0" expanded="false" />
-            <element signature="e#3311#3966#0" expanded="false" />
-            <element signature="e#4056#5311#0" expanded="false" />
-            <element signature="e#5357#5694#0" expanded="false" />
-            <element signature="e#5747#7188#0" expanded="false" />
-            <element signature="e#7238#8538#0" expanded="false" />
-            <element signature="e#8588#8596#0" expanded="false" />
-            <element signature="e#8644#8652#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-2.9310346" vertical-offset="93071" max-vertical-offset="339738">
+          <caret line="4446" column="29" selection-start-line="4446" selection-start-column="29" selection-end-line="4446" selection-end-column="29" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31460676" vertical-offset="0" max-vertical-offset="267">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
